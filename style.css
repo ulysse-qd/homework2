@@ -35,10 +35,10 @@ a:visited {
   color: green;
 }
 
-input:active {
+input[type="submit"]:active {
   background-color: green;
 }
 
-input:hover:not(input:active) {
+input[type="submit"]:hover:not(input:active) {
   background-color: red;
 }
