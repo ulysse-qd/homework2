@@ -1,0 +1,44 @@
+body {
+  font-family: "Calibri", sans-serif;
+}
+
+p {
+  font-family: "Calibri", sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+ul {
+  list-style-type: square;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tr:hover {
+  background-color: lightblue;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+input:active {
+  background-color: green;
+}
+
+input:hover:not(input:active) {
+  background-color: red;
+}
